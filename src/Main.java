@@ -1,11 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        TaxCalculator calculator = getCalculator();
-        calculator.calculateText();
+        var account = new Account();
+        account.deposid(100);
+        account.withdraw(50);
+        System.out.println(account.getBalance());
     }
-
-    public static TaxCalculator getCalculator() {
-        return new TaxCalculator2023();
-    }
-
 }
