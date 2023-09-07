@@ -1,6 +1,11 @@
 public class Main {
-    public static void main(String[] args) {
-        var textBox = new TextBox();
-        textBox.enable();
-    }
+
+    //Polymorphism
+//    public static void main(String[] args) {
+//        drawUIControl(new CheckBox());
+//    }
+//
+//    public static void drawUIControl(UIControl control) {
+//        control.dwar();
+//    }
 }
