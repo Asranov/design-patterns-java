@@ -1,3 +1,5 @@
+//Class
+
 public class User {
     //Field (attributes)
     public String name;
